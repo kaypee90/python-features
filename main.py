@@ -1,4 +1,11 @@
+"""
+Python 3.10 structure pattern matching feature
+"""
+
 def pattern_match(item):
+    """
+    Example pattern matching
+    """
     match item:
         case "Kofi":
             print("Is a string")
@@ -10,6 +17,9 @@ def pattern_match(item):
             print("Type is unknown")
 
 def main():
+    """
+    Script's entrypoint
+    """
     pattern_match("Kofi")
     pattern_match(90)
     pattern_match(True)
